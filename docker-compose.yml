@@ -26,7 +26,7 @@ services:
     container_name: ctf-db
     image: hypriot/rpi-mysql
     command: mysqld --innodb_use_native_aio=0
-    restart: always;
+    restart: always
     environment:
       MYSQL_DATABASE: competition
       MYSQL_USER: competition
